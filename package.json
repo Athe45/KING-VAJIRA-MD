@@ -6,8 +6,8 @@
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira-md",
-                "stop": "pm2 stop vajira-md"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name MT ATHEX-MD",
+                "stop": "pm2 stop MT ATHEX-MD"
                 },
                "author": "MT ATHEX",
               "dependencies": {
