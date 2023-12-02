@@ -1,7 +1,7 @@
 {
-  "name": "ATHEX-Md by excel ",
+  "name": "MT ATHEX-MD by excel ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
+  "logo": "https://telegra.ph/file/c9e39177ccd5bc7acbe25.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "VajiraBot", "Secktor","VAJIRAMD","theme bot","multi device","baileys","excel"],
   "success_url": "/",
   "stack": "container",
@@ -12,7 +12,7 @@
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required" :true
+     "required" :false
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
