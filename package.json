@@ -1,7 +1,7 @@
 {
-               "name": "King-Vajira-Md",
+               "name": "MT ATHEX-MD",
                "version": "4.0",
-               "description": "Multi device whatsapp bot by Vajira.",
+               "description": "Multi device whatsapp bot by athex.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
@@ -9,7 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira-md",
                 "stop": "pm2 stop vajira-md"
                 },
-               "author": "WMR VAJIRA",
+               "author": "MT ATHEX",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
