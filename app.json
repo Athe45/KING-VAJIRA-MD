@@ -1,14 +1,14 @@
 {
-  "name": "MT ATHEX-MD by excel ",
+  "name": "VAJIRA-Md by excel ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/c9e39177ccd5bc7acbe25.jpg",
+  "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "VajiraBot", "Secktor","VAJIRAMD","theme bot","multi device","baileys","excel"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "developer Athex"
+      "value": "Vajira Rathnayama"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
@@ -36,12 +36,12 @@
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :true
+     "required" :false
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
      "value": "chat.whatsapp.com,fb.com,instagram.com",
-     "required" :true
+     "required" :false
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
@@ -50,16 +50,16 @@
     },
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
-     "required" :true,
-     "value": "true"
+     "required" :false,
+     "value": "false"
     },
     "SUDO": {
     "description": "PUT OWNER NUMBER NOTE:remove the + and must be in international form eg:2347039570336",
-     "required"  :true
+     "required"  :false
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
-     "required" :true,
+     "required" :false,
      "value": "true"
     },
    "DISABLE_PM": {
@@ -72,7 +72,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94765359949"
+       "value": "put your number"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@VajiraRathnayak/VAJIRA-MD-7?v=1"
@@ -88,7 +88,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are IZUKU,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "ATHEX"
+     "value": "VAJIRA"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -96,24 +96,12 @@
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
-     "value": "true",
-     "required": true 
+     "value": "false",
+     "required": false 
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "TM DARK WINGS",
+     "value": "WMR;TECH",
      "required": false 
   },
   "heroku": {
-    "description": "Weather it is on heroku or not",
-     "value": "true",
-     "required": false 
-  }
-},
-"formation": {
-		"worker": {
-			"quantity": 1,
-			"size": "basic"
-		}
-	}
-}
